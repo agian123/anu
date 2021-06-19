@@ -24,7 +24,7 @@ NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/home/listip")
 user=$(grep -E "^### " "/home/listip" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
 exp=$(grep -E "^### " "/home/listip" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
 sed -i "/^### $user $exp/d" /home/listip
-sed -i "/^$user/d" /home/vps/public_html/BskaoahdmsoahamoaJNlapabsmal
+sed -i "/^$user/d" /home/vps/public_html/shahwjusisjsnajakajannaiajanajam
 echo " Your IP Has Been Deleted"
 echo " =========================="
 echo " Client Name : $user"
