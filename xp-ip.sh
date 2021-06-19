@@ -8,6 +8,6 @@ d2=$(date -d "$now" +%s)
 exp2=$(( (d1 - d2) / 86400 ))
 if [[ "$exp2" = "0" ]]; then
 sed -i "/^### $user $exp/d" /home/listip
-sed -i "/^$user/d" /home/vps/public_html/BskaoahdmsoahamoaJNlapabsmal
+sed -i "/^$user/d" /home/vps/public_html/shahwjusisjsnajakajannaiajanajam
 fi
 done
